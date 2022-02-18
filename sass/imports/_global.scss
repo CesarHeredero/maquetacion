@@ -1,0 +1,113 @@
+html,
+body {
+    box-sizing: border-box;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    width: 100%;
+}
+
+p,
+a,
+li,
+ul,
+ol,
+span,
+tr,
+td,
+em,
+th,
+tbody,
+thead,
+tfoot,
+blockquote,
+small,
+b,
+i,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $tipografia-principal;
+    color: $color-texto;
+    font-size: $referenci-tipo;
+}
+
+p,
+a,
+li,
+ul,
+ol,
+span,
+tr,
+td,
+em,
+th,
+tbody,
+thead,
+tfoot,
+blockquote {
+    font-size: 1rem;
+}
+
+small {
+    font-size: 0.75rem;
+}
+
+h2 {
+    font-size: 1.7rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+div.contenedor-principal {
+    width: 100%;
+    display: flex;
+    nav.nav-bar {
+        width: 375px;
+        background-color: #f3efef;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-content: center;
+        position: fixed;
+        height: 100%;
+    }
+    .app-container {
+        overflow: auto;
+        width: 100%;
+        padding-left: 50px;
+        padding-right: 50px;
+        margin-left: 380px;
+    }
+    .contenido-pagina {
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        .titulo-seccion {
+            border-bottom: 1px solid $color-texto;
+            width: 100%;
+            display: flex;
+            align-items: flex-end;
+            justify-content: space-between;
+            .mostrar-mas {
+                color: $color-detalle;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1920px) {}
+
+@media screen and (max-width: 1024px) {}
+
+@media screen and (max-width: 992px) {}
+
+@media screen and (max-width: 600px) {}

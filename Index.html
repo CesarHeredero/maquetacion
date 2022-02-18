@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GFS - Product Catalogue</title>
+
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+    <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js?ver=1.3.2'></script>
+    <script type='text/javascript' src='https://joehewitt.github.io/scrollability/scrollability.min.js'></script>
+</head>
+
+<body>
+    <!-- Contenedor página -->
+    <div class="contenedor-principal">
+        <!-- Menú -->
+        <nav class="nav-bar">
+            <header class="logo">
+                <img src="./images//GFS_Logo_RGB.jpg" alt="logo-gfs" id="logo-app">
+            </header>
+            <article class="menu">
+                <ul class="menu-group">
+                    <li class="menu-item">
+                        <a href="./Index.html" class="active">Products</a>
+                        <ul class="submenu-group">
+                            <li class="submenu-item"><a href="./seasonal-bouquets.html">Seasonal Bouquets</a></li>
+                            <li class="submenu-item"><a href="./bestsellers-bouquets.html">Bestsellers Bouquets</a></li>
+                            <li class="submenu-item"><a href="./all.html">All</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item"><a href="./unit-detail.html">Unit Detail</a></li>
+                    <li class="menu-item"><a href="./country-detail.html">Country Detail</a></li>
+                </ul>
+            </article>
+
+            <footer class="footer">
+                <article class="user">
+                    <a href="">
+                        <i class="fas fa-user-slash"></i> Log Out
+                    </a>
+                </article>
+                <small><i class="far fa-copyright"></i> 2021 Global Flower Services</small>
+            </footer>
+        </nav>
+        <!-- Fin Menú -->
+        <!-- Contenido -->
+        <section class="app-container">
+            <div class="filtro-busqueda">
+                <div class="filtro">
+                    <p class="indicador-filtro filtro-item">
+                        <i class="fas fa-filter"></i> Filter
+                    </p>
+                    <select name="countries" id="countries" class="countries filtro-item">
+                        <option value="country">Country</option>
+                        <option value="spain">Spain</option>
+                        <option value="france">France</option>
+                        <option value="greece">Greece</option>
+                    </select>
+                    <select name="categories" id="categories" class="categories filtro-item">
+                        <option value="Category">Category</option>
+                        <option value="Seasonal-Bouquets">Seasonal Bouquets</option>
+                        <option value="Bestsellers-Bouquets">Bestsellers Bouquets</option>
+                        <option value="All">All</option>
+                    </select>
+                </div>
+                <div class="busqueda">
+                    <div>
+                        <i class="fas fa-search"></i>
+                        <input type="search" name="" id="">
+                    </div>
+                </div>
+            </div>
+            <div class="contenido-pagina">
+                <h2 class="titulo-seccion">
+                    Categories
+                </h2>
+            </div>
+            <section class="menu-categorias">
+                <article class="categoria">
+                    <a href="./seasonal-bouquets.html">
+                        <img src="./images/seccion1.jpg" alt="Seasonal Bouquets">
+                        <h4 class="titulo-categoria">Seasonal Bouquets</h4>
+                    </a>
+                </article>
+                <article class="categoria">
+                    <a href="./bestsellers-bouquets.html">
+                        <img src="./images/seccion2.jpg" alt="Bestsellers Bouquets">
+                        <h4 class="titulo-categoria">Bestsellers Bouquets</h4>
+                    </a>
+                </article>
+                <article class="categoria">
+                    <a href="./all.html">
+                        <img src="./images/seccion3.jpg" alt="All">
+                        <h4 class="titulo-categoria">All</h4>
+                    </a>
+                </article>
+
+            </section>
+        </section>
+        <!-- Fin Contenido -->
+    </div>
+    <!-- Fín Contenedor página -->
+</body>
+
+</html>

@@ -1,0 +1,14 @@
+@mixin boton {
+    color: $letra-boton;
+    background: $color-detalle;
+    border: none;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    padding: 5px 15px;
+    margin: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+}

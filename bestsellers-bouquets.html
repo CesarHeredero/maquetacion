@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GFS - Product Catalogue</title>
+
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- Contenedor página -->
+    <div class="contenedor-principal">
+        <!-- Menú -->
+        <nav class="nav-bar">
+            <header class="logo">
+                <img src="./images//GFS_Logo_RGB.jpg" alt="logo-gfs" id="logo-app">
+            </header>
+            <article class="menu">
+                <ul class="menu-group">
+                    <li class="menu-item">
+                        <a href="./Index.html" class="active">Products</a>
+                        <ul class="submenu-group">
+                            <li class="submenu-item"><a href="./seasonal-bouquets.html">Seasonal Bouquets</a></li>
+                            <li class="submenu-item"><a class="active" href="./bestsellers-bouquets.html">Bestsellers Bouquets</a></li>
+                            <li class="submenu-item"><a href="./all.html">All</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item"><a href="./unit-detail.html">Unit Detail</a></li>
+                    <li class="menu-item"><a href="./country-detail.html">Country Detail</a></li>
+                </ul>
+            </article>
+
+            <footer class="footer">
+                <article class="user">
+                    <a href="">
+                        <i class="fas fa-user-slash"></i> Log Out
+                    </a>
+                </article>
+                <small><i class="far fa-copyright"></i> 2021 Global Flower Services</small>
+            </footer>
+        </nav>
+        <!-- Fin Menú -->
+        <!-- Contenido -->
+        <section class="app-container">
+            <div class="filtro-busqueda">
+                <div class="filtro">
+                    <p class="indicador-filtro filtro-item">
+                        <i class="fas fa-filter"></i> Filter
+                    </p>
+                    <select name="countries" id="countries" class="countries filtro-item">
+                        <option value="country">Country</option>
+                        <option value="spain">Spain</option>
+                        <option value="france">France</option>
+                        <option value="greece">Greece</option>
+                    </select>
+                    <select name="categories" id="categories" class="categories filtro-item">
+                        <option value="Category">Category</option>
+                        <option value="Seasonal-Bouquets">Seasonal Bouquets</option>
+                        <option value="Bestsellers-Bouquets">Bestsellers Bouquets</option>
+                        <option value="All">All</option>
+                    </select>
+                </div>
+                <div class="busqueda">
+                    <div>
+                        <i class="fas fa-search"></i>
+                        <input type="search" name="" id="">
+                    </div>
+                </div>
+            </div>
+            <div class="contenido-pagina">
+                <div class="titulo-seccion">
+                    <h2 class="lbltitulo">
+                        Seasonal bouquets
+                    </h2>
+                </div>
+
+                <section id="listado-productos gallery scrollable" class="listado-productos">
+                    <aritcle class="item-producto">
+                        <img src="./images/rosa1.jpg" alt="">
+                        <div class="detalle-producto">
+                            <h3 class="item-titulo-producto">12 Roses</h3>
+                            <h2 class="item-precio-producto">€90.00</h2>
+                            <p class="item-intercode">Intercat Code: 12RL</p>
+                            <p class="item-country">Country: Grecce</p>
+                            <button class="item-detalle">Details</button>
+                        </div>
+                    </aritcle>
+                    <aritcle class="item-producto">
+                        <img src="./images/rosa1.jpg" alt="">
+                        <div class="detalle-producto">
+                            <h3 class="item-titulo-producto">12 Roses</h3>
+                            <h2 class="item-precio-producto">€90.00</h2>
+                            <p class="item-intercode">Intercat Code: 12RL</p>
+                            <p class="item-country">Country: Grecce</p>
+                            <button class="item-detalle">Details</button>
+                        </div>
+                    </aritcle>
+                </section>
+            </div>
+        </section>
+        <!-- Fin Contenido -->
+    </div>
+    <!-- Fín Contenedor página -->
+</body>
+
+</html>

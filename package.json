@@ -1,0 +1,19 @@
+{
+    "name": "gfs",
+    "version": "1.0.0",
+    "description": "html y css para gfs",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Cesar Heredero",
+    "license": "ISC",
+    "devDependencies": {
+        "gulp": "^4.0.2",
+        "gulp-sass": "^5.1.0"
+    },
+    "dependencies": {
+        "node-sass": "^7.0.1",
+        "sass": "^1.49.7"
+    }
+}

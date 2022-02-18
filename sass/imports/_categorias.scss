@@ -1,0 +1,38 @@
+/* Categorías */
+
+section.menu-categorias {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    .categoria {
+        $width: 100%;
+        flex-basis: $width / 3;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        height: 270px;
+        justify-content: center;
+        a {
+            text-align: center;
+        }
+        img {
+            max-width: 130px;
+            margin-bottom: 20px;
+        }
+        .titulo-categoria {
+            font-size: 1.25rem;
+            font-weight: bold;
+        }
+    }
+}
+
+@media screen and (max-width: 1920px) {}
+
+@media screen and (max-width: 1024px) {}
+
+@media screen and (max-width: 992px) {}
+
+@media screen and (max-width: 600px) {}
+
+
+/* Fin Categorías */
