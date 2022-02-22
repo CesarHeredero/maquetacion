@@ -181,6 +181,10 @@ blockquote {
 small {
   font-size: 0.75rem; }
 
+button,
+a {
+  cursor: pointer; }
+
 h2 {
   font-size: 1.7rem; }
 
@@ -369,7 +373,9 @@ section.menu-categorias {
       padding: 5px 15px;
       margin: 10px;
       text-transform: uppercase;
-      font-weight: bold; }
+      font-weight: bold;
+      line-height: 3rem;
+      font-size: 0.8rem; }
 
 /* Fin Productos */
 /* Productos All */
@@ -439,6 +445,9 @@ section.menu-categorias {
       padding: 5px 15px;
       margin: 10px;
       text-transform: uppercase;
-      font-weight: bold; }
+      font-weight: bold;
+      line-height: 3rem;
+      font-size: 0.8rem; }
 
+/* Fin Productos All */
 /* Fin Productos All */
