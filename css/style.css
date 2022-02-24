@@ -236,9 +236,13 @@ div.contenedor-principal {
 
 .nav-bar .menu {
   height: 60%; }
-  .nav-bar .menu a {
+  .nav-bar .menu a,
+  .nav-bar .menu .menu-item {
     font-size: 1.25rem;
     color: #707070; }
+  .nav-bar .menu a:hover {
+    color: #c9ad59;
+    text-decoration: underline; }
   .nav-bar .menu a.active {
     color: #c9ad59;
     text-decoration: underline; }

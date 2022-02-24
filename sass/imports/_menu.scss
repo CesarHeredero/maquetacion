@@ -12,9 +12,14 @@
     }
     .menu {
         height: 60%;
-        a {
+        a,
+        .menu-item {
             font-size: 1.25rem;
             color: $color-texto-menu;
+        }
+        a:hover {
+            color: $color-detalle;
+            text-decoration: underline;
         }
         a.active {
             color: $color-detalle;
